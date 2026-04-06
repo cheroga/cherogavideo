@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/transparent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:clipToPadding="false">
+
+    <!-- Card del Icono -->
+    <ImageView
+        android:id="@+id/imgIcono"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#333333"
+        android:scaleType="centerCrop"
+        android:outlineProvider="background" />
+
+    <TextView
+        android:id="@+id/txtNombreCanal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
